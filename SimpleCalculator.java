@@ -51,7 +51,7 @@ public class SimpleCalculator extends JFrame implements ActionListener {
 
 
     public SimpleCalculator() throws IOException, FontFormatException {
-        super("ExerciseTwo");  // Set the frame's name
+        super("SimpleCalculator");  // Set the frame's name
 
         // creates the two booleans and double needed for calculations
         clearDisp = false;
