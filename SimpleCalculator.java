@@ -7,11 +7,11 @@
                     fntNum, fntOperation, pnlNumbers, pnlOperations, btnNums[],
                     btnEquals, btnDot, btnPlus, btnMinus, btnDivide, btnMultiply,
                     btnClearAll, btnClearDisp, btnOff, txtDisplay
-    Methods:        ExerciseTwo                     - class constructor, draws GUI
-                    actionPreformed (ActionEvent e) - listens to see if any buttons in the GUI have been pressed
-                    boolean hasDot (String input)   - takes in a string and returns a boolean based on the
-                                                      number of dots it contains
-                    main (String[] args)            - creates a new ExerciseTwo object
+    Methods:        SimpleCalculator                    - class constructor, draws GUI
+                    actionPreformed (ActionEvent e)     - listens to see if any buttons in the GUI have been pressed
+                    boolean hasDot (String input)       - takes in a string and returns a boolean based on the
+                                                          number of dots it contains
+                    main (String[] args)                - creates a new SimpleCalculator object
 
  */
 
@@ -558,6 +558,6 @@ public class SimpleCalculator extends JFrame implements ActionListener {
     }
 
     public static void main(String[] args) throws IOException, FontFormatException {
-        new SimpleCalculator();     // Create a ExerciseTwo frame
+        new SimpleCalculator();     // Create a SimpleCalculator frame
     }
 }
